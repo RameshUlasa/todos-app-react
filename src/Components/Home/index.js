@@ -35,14 +35,14 @@ const Home = () => {
 
     if (!nameError && !emailError && !numberError) {
       localStorage.setItem("userData", JSON.stringify({ name, email, number }));
-      console.log(name);
+
       setName("");
       setEmail("");
       setNumber("");
       setNameError("");
       setEmailError("");
       setNumberError("");
-      alert("Your response successfully submited");
+      alert("Your response registered successfully. We will get back to you");
     }
   }
 
@@ -173,13 +173,13 @@ const Home = () => {
 
       <div className="initiative-sec pt-5 pb-5">
         <div className="inner-card">
-          <h1 className="sec-head">tect for teens - a rubixe ® initiative</h1>
+          <h1 className="sec-head">tech for teens - a rubixe ® initiative</h1>
           <ul className="tech-cards-list mt-5">
             <li className="each-card mt-4">
               <p className="position-item">01</p>
               <img
                 className="tech-logo"
-                alt="tect-logo-1"
+                alt="tech-logo-1"
                 src="https://res.cloudinary.com/dgpzmegh5/image/upload/v1676623682/ai-logo_lkpiz3.jpg"
               />
               <p className="about-tech">
@@ -193,7 +193,7 @@ const Home = () => {
               </p>
               <img
                 className="tech-logo"
-                alt="tect-logo-2"
+                alt="tech-logo-2"
                 src="https://res.cloudinary.com/dgpzmegh5/image/upload/v1676630868/ai-2_onlvu6.webp"
               />
             </li>
@@ -201,7 +201,7 @@ const Home = () => {
               <p className="position-item p-3">03</p>
               <img
                 className="tech-logo"
-                alt="tect-logo-3"
+                alt="tech-logo-3"
                 src="https://res.cloudinary.com/dgpzmegh5/image/upload/v1676630985/ai-3_sgr8xw.jpg"
               />
               <p className="about-tech">
@@ -215,7 +215,7 @@ const Home = () => {
               </p>
               <img
                 className="tech-logo"
-                alt="tect-logo-4"
+                alt="tech-logo-4"
                 src="https://res.cloudinary.com/dgpzmegh5/image/upload/v1676631289/ai-4_izj9gn.jpg"
               />
             </li>
@@ -224,7 +224,7 @@ const Home = () => {
               <img
                 className="tech-logo"
                 src="https://res.cloudinary.com/dgpzmegh5/image/upload/v1676631295/ai-5_nkvl7c.webp"
-                alt="tect-logo-5"
+                alt="tech-logo-5"
               />
               <p className="about-tech">Train the teachers programme</p>
             </li>
